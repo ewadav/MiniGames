@@ -4,14 +4,14 @@ import javax.swing.ImageIcon;
 
 public class Brick extends Sprite{
 
-	String brickie = "Breakout/Images/brick.png";
+	String brick = "../Images/brick.png";
 	boolean destroyed;
 	
 	public Brick(int x, int y)	{
 		this.x = x;
 		this.y = y;
 		
-		ImageIcon ii = new ImageIcon(this.getClass().getResource(brickie));
+		ImageIcon ii = new ImageIcon(brick);
 		image = ii.getImage();
 		
 		width = image.getWidth(null);

@@ -7,12 +7,12 @@ import javax.swing.ImageIcon;
 
 public class Paddle extends Sprite implements Commons	{
 	
-	String paddle = "Breakout/Images/paddle.png";
+	String paddle = "../Images/paddle.png";
 	int dx;
 	
 	public Paddle()	{
 		
-		ImageIcon ii = new ImageIcon(this.getClass().getResource(paddle));
+		ImageIcon ii = new ImageIcon(paddle);
 		image = ii.getImage();
 		
 		width = image.getWidth(null);
