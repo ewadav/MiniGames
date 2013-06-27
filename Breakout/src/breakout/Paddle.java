@@ -64,7 +64,4 @@ public class Paddle extends Sprite implements Commons	{
 		y = 360;
 	}
 	
-	
-	
-	
 }
