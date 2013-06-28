@@ -7,14 +7,14 @@ public class Ball extends Sprite implements Commons{
 	private int xdir;
 	private int ydir;
 	
-	protected String ball = "../Images/ball.png";
+	protected String ball = "Breakout/Images/ball.png";
 	
 	public Ball()	{
 		
 		xdir = 1;
 		ydir = -1;
 		
-		ImageIcon ii = new ImageIcon(ball);
+		ImageIcon ii = new ImageIcon(this.getClass().getResource(ball));
 		image = ii.getImage();
 				
 		width = image.getWidth(null);

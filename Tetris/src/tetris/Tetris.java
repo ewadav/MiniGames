@@ -9,12 +9,13 @@ import javax.swing.JLabel;
 public class Tetris extends JFrame {
 
     JLabel statusbar;
+    
 
 
     public Tetris() {
 
         statusbar = new JLabel(" 0");
-        add(statusbar, BorderLayout.SOUTH);
+        add(statusbar, BorderLayout.NORTH);
         Board board = new Board(this);
         add(board);
         board.start();
