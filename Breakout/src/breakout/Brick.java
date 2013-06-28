@@ -4,8 +4,8 @@ import javax.swing.ImageIcon;
 
 public class Brick extends Sprite{
 
-	String brick = "../Images/brick.png";
-	boolean destroyed;
+	private String brick = "../Images/brick.png";
+	private boolean destroyed;
 	
 	public Brick(int x, int y)	{
 		this.x = x;

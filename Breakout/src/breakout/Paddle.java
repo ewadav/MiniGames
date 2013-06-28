@@ -7,8 +7,8 @@ import javax.swing.ImageIcon;
 
 public class Paddle extends Sprite implements Commons	{
 	
-	String paddle = "../Images/paddle.png";
-	int dx;
+	private String paddle = "../Images/paddle1.png";
+	private int dx;
 	
 	public Paddle()	{
 		
